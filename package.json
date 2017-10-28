@@ -34,9 +34,7 @@
     "redux-devtools": "^3.4.0",
     "redux-promise-middleware": "^4.4.1",
     "serve-favicon": "^2.0.1",
-    "webpack": "^3.6.0"
-  },
-  "devDependencies": {
+    "webpack": "^3.6.0",
     "axios-mock-adapter": "^1.6.1",
     "babel": "^6.3.26",
     "babel-loader": "^7.1.1",
