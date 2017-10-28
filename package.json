@@ -7,7 +7,7 @@
     "build": "npm run less && webpack -w",
     "start": "node server/index.js",
     "postinstall": "npm run less && webpack",
-    "less": "lessc src/css/style.less dist/css/style.css",
+    "less": "less src/css/style.less dist/css/style.css",
     "lint": "eslint .",
     "test": "npm run build && mocha test/.setup.js test/*.spec.js"
   },
