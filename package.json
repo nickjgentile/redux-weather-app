@@ -11,6 +11,9 @@
     "lint": "eslint .",
     "test": "npm run build && mocha test/.setup.js test/*.spec.js"
   },
+  "engines": {
+    "node": "6.11.1"
+  },
   "dependencies": {
     "axios": "^0.16.1",
     "babel-loader": "^7.1.1",
