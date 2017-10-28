@@ -4,7 +4,7 @@
   "description": "Base application setup for creating a new react project.",
   "main": "server/index.js",
   "scripts": {
-    "build": "npm run less && webpack -w",
+    "build": "npm run less && webpack",
     "start": "node server/index.js",
     "postinstall": "npm run less && webpack",
     "less": "less src/css/style.less dist/css/style.css",
@@ -12,7 +12,7 @@
     "test": "npm run build && mocha test/.setup.js test/*.spec.js"
   },
   "engines": {
-    "node": "^8.00"
+    "node": "node"
   },
   "dependencies": {
     "axios": "^0.16.1",
